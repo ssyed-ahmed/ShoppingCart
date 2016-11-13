@@ -1,0 +1,22 @@
+.spacer {
+  margin: 10px;
+}
+.footer {
+  height: 30px;
+  text-align: center;
+  border-top: 1px solid black;
+}
+.content {
+  margin: 10px;
+  border: 1px solid black;
+}
+.logoText {
+  font-size: 24px;
+  /*color: blue;*/
+  text-shadow: 2px 1px #ff0000;
+  margin-right: 700px;
+}
+.loggedUser {
+  float: right;
+  text-align: center;
+}

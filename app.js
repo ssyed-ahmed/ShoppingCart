@@ -7,6 +7,10 @@
       MainCtrl.$inject = ['$scope'];
 
       function MainCtrl($scope) {
-        $scope.name = "Sumair";
+        $scope.loggedInUser = "Dummy";
+
+        $scope.showHome = function() {
+          alert('Home clicked');
+        }
       }
 })();
