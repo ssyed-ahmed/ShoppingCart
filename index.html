@@ -1,10 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="ShoppingCart">
   <head>
     <meta charset="utf-8">
     <title>My Shopping Cart</title>
+
+    <script type="text/javascript" src="angular.min.js"></script>
+    <script type="text/javascript" src="app.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
   </head>
   <body>
-    This is a shopping cart!
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+              <img alt="Brand" src="images/brand-icon.png">
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+  <ul class="nav nav-pills nav-stacked span3">
+    <li class="active"><a href="#">Home</a></li>
+    <li><a href="#">Wish List</a></li>
+    <li><a href="#">My Cart</a></li>
+    <li><a href="#">My Shopping History</a></li>
+  </ul>
   </body>
 </html>
